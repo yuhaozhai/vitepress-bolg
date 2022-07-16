@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\nodejs\node_gobal\node_modules\yarn\bin\yarn.js docs:dev
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;D:\mongodb-win32-x86_64-2008plus-ssl-4.0.10\bin;D:\nodejs\node_gobal;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\Java\jdk-16.0.2\jre\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;D:\微信web开发者工具\dll;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;F:\nginx-1.21.6;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\Microsoft VS Code\bin;D:\WebStorm 2021.3.2\bin;;C:\src\flutter\bin;;D:\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: F:\vitepress-bolg\package.json: Unexpected token } in JSON at position 235
+      at JSON.parse (<anonymous>)
+      at D:\nodejs\node_gobal\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\nodejs\node_gobal\node_modules\yarn\lib\cli.js:310:30)
+      at D:\nodejs\node_gobal\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "vitepress-bolg",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "docs:dev": "vitepress dev docs",
+      "docs:build": "vitepress build docs",
+      "docs:serve": "vitepress serve docs"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
